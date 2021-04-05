@@ -1,0 +1,27 @@
+/.*/
+/demo/
+.*
+bower.json
+greenkeeper.json
+karma.conf.js
+rollup.config.js
+src
+coverage
+.nyc_output
+.jest
+**/__tests__/
+out-tsc
+images
+scripts
+jest*.js
+tsconfig.*.json
+tsconfig.json
+.coveralls.yml
+.banner
+package
+*.tgz
+*.log
+rollup.config.js
+
+# ignore OS generated files
+**/.DS_Store

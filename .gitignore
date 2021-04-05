@@ -1,0 +1,17 @@
+lib
+npm-debug.log
+.DS_Store
+node_modules
+coverage
+package
+.nyc_output
+dist
+.jest/
+out-tsc/
+*.js
+*.d.ts
+!jest.*.js
+!rollup.config.js
+!scripts/*
+*.tgz
+*.log
