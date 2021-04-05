@@ -9,14 +9,6 @@ module.exports = {
   collectCoverage: true,
   roots: ['src'],
   collectCoverageFrom: ['**/src/*.ts', '!src/index.ts', '!src/user-timing-api-resolver.ts'],
-  coverageThreshold: {
-    global: {
-      branches: 74,
-      functions: 66,
-      lines: 87,
-      statements: 87,
-    },
-  },
   preset: 'ts-jest',
   testEnvironment: 'node',
   testPathIgnorePatterns: ['/node_modules/', '/scripts/', '/dist/'],

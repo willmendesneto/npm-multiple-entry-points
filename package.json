@@ -1,6 +1,6 @@
 {
   "name": "npm-multiple-entry-points",
-  "version": "10.0",
+  "version": "1.0.0",
   "author": "Will Mendes <willmendesneto@gmail.com>",
   "description": "The simplest and lightweight solution for User Timing API in Javascript.",
   "repository": {
@@ -16,8 +16,7 @@
   "es2020": "dist/es2020/index.js",
   "cjs": "dist/cjs/index.js",
   "types": "dist/cjs/index.d.ts",
-  "keywords": [
-  ],
+  "keywords": [],
   "dependencies": {
     "tslib": "^2.1.0"
   },
@@ -42,7 +41,7 @@
     "ts-jest": "^26.5.1",
     "ts-node": "^9.0.0",
     "typescript": "^4.1.5",
-    "typings": "^2.1.1",
+    "typings": "^2.1.1"
   },
   "engines": {
     "node": ">=12"
@@ -67,31 +66,27 @@
   "bundlesize": [
     {
       "path": "./dist/esm/index.js",
-      "maxSize": "132B"
+      "maxSize": "80B"
     },
     {
       "path": "./dist/es2015/index.js",
-      "maxSize": "132B"
+      "maxSize": "80B"
     },
     {
       "path": "./dist/cjs/index.js",
-      "maxSize": "224B"
+      "maxSize": "172B"
     },
     {
-      "path": "./dist/cjs/entrypoints/marks.js",
-      "maxSize": "167B"
+      "path": "./dist/esm/entrypoints/hex-to-rgb.js",
+      "maxSize": "51B"
     },
     {
-      "path": "./dist/cjs/entrypoints/entries.js",
-      "maxSize": "167B"
+      "path": "./dist/esm/entrypoints/is-dark-mode.js",
+      "maxSize": "53B"
     },
     {
-      "path": "./dist/cjs/entrypoints/utils.js",
-      "maxSize": "205B"
-    },
-    {
-      "path": "./dist/cjs/entrypoints/profiler.js",
-      "maxSize": "167B"
+      "path": "./dist/esm/entrypoints/is-light-color.js",
+      "maxSize": "55B"
     }
   ],
   "husky": {

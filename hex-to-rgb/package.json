@@ -1,0 +1,12 @@
+
+{
+  "name": "npm-multiple-entry-points/hex-to-rgb",
+  "private": true,
+  "main": "../dist/cjs/entrypoints/hex-to-rgb.js",
+  "module": "../dist/esm/entrypoints/hex-to-rgb.js",
+  "jsnext:main": "../dist/esm/entrypoints/hex-to-rgb.js",
+  "es2015": "../dist/es2015/entrypoints/hex-to-rgb.js",
+  "es2020": "../dist/es2020/entrypoints/hex-to-rgb.js",
+  "cjs": "../dist/cjs/entrypoints/hex-to-rgb.js",
+  "types": "../dist/cjs/entrypoints/hex-to-rgb.d.ts"
+}
